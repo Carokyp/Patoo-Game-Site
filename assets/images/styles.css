@@ -59,20 +59,21 @@ nav {
 
 .logo h1 {
     color: var(--text-light);
-    font-size: 1.8rem;
+    font-size: 2.2rem;
     font-weight: 700;
 }
 
 .nav-links {
     display: flex;
     list-style: none;
-    gap: 2rem;
+    gap: 2.5rem;
 }
 
 .nav-links a {
     color: var(--text-light);
     text-decoration: none;
-    font-weight: 500;
+    font-weight: 600;
+    font-size: 1.2rem;
     transition: opacity 0.3s ease;
 }
 
@@ -364,11 +365,6 @@ nav {
     overflow: hidden;
     box-shadow: var(--shadow);
     background: white;
-    transition: transform 0.3s ease;
-}
-
-.screenshot-item:hover {
-    transform: translateY(-5px);
 }
 
 .screenshot-item img {
